@@ -5,8 +5,11 @@ First include the file in your project.
 Usage:
 
     $("h1").dropFont(15);
-    
-   To animate this effect you can do:
+Set the color for the effect by adding this to your css:
+
+    --drop-color: #E572B2;
+
+   To animate the effect you can do:
    
 
     function animateDrop() {
